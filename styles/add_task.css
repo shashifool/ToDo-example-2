@@ -1,0 +1,54 @@
+.mobile-view-top-container {
+    z-index: 10;
+}
+.add-task-popup {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 240px;
+    height: 140px;
+    margin: auto;
+    padding: 16px;
+    border: 1px solid #e74c3cb3;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 5px rgb(101, 98, 98,.5);
+    z-index: 12;
+}
+
+.add-task-popup p{
+    text-align: center;
+    font-size: 16px;
+    color: #e74c3c;
+    font-weight: 700;
+}
+
+.add-task-popup #text-field {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    display: block;
+    padding: 8px 0;
+    border: 1px solid #e74c3cb3;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgb(101, 98, 98,.5)
+}
+
+.add-task-popup #add-task-btn {
+    text-decoration: none;
+    background: #e74c3c;
+    padding: 5px 15px 5px 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 16px;
+}
+
+.mobile-view-top-container {
+    filter: blur(4px);
+    opacity: 0.6;
+}    

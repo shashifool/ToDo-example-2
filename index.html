@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>TODO With FlexBox</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/large_screen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="top-container">
+        <div class="header">
+            <p class="large-screen-heading"><strong>Tasks&nbsp;</strong><span id="opaque">Lists</span></p>
+            <div id="add-list-btn-layout">
+                <a href="#" class="large-screen-add-task-btn"><i class="fa fa-plus"></i></a>
+                <label id="lbl-add-list">Add List</label>
+            </div>
+        </div>
+        <div class="large-task-card-container">
+            <div class="task-card">
+                <p id="task-heading">Trip to Paris</p>
+                <hr />
+                <div class="completed-task">Completed Task</div>
+                <input type="checkbox" id="check">
+                <label>Pending Task</label>
+            </div>
+            <div class="task-card">
+                <p id="task-heading">My Todo List</p>
+                <hr>
+                <div class="completed-task">Completed Task</div>
+                <input type="checkbox" id="check">
+                <label>Pending Task</label>
+            </div>
+            <div class="task-card">
+                <p id="task-heading">My Todo List</p>
+                <hr>
+                <div class="completed-task">Completed Task</div>
+                <input type="checkbox" id="check">
+                <label>Pending Task</label>
+            </div>
+        </div>
+    </div>
+    <div class="home-mobile-view-top-container">
+        <h1 class="heading">Tasks <span id="opaque">Lists</span></h1>
+        <a href="#" class="add-task-btn circular-btn"><i class="fa fa-plus"></i></a>
+        <div class="task-card-container">
+            <div class="card">Trip to Paris</div>
+            <div class="card">My ToDo Task 2</div>
+            <div class="card">My ToDo Task 3</div>
+            <div class="card">My ToDo Task 4</div>
+            <div class="card">My ToDo Task 5</div>
+        </div>
+    </div>
+</body>
